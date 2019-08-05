@@ -39,7 +39,16 @@ const SideNav = () => {
         <SideBarItem icon="email" text="Github" link="/" />
       </ul>
       <a href="#" data-target="slide-out" className="sidenav-trigger">
-        <i className="material-icons">menu</i>
+        <i
+          className="material-icons"
+          style={{
+            color: "white",
+            backgroundColor: "red",
+            fontSize: 40
+          }}
+        >
+          menu
+        </i>
       </a>
     </>
   );
