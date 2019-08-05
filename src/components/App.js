@@ -1,17 +1,19 @@
 import React from "react";
-import "./App.css";
 
-import Header from "./components/Header";
-import Dashboard from "./components/Dashboard";
-import Footer from "./components/Footer";
+import "material-icons";
+import "materialize-css/dist/css/materialize.min.css";
+
+// import Header from "./Header";
+import SideBar from "./SideBar/SideBar";
+import Dashboard from "./Dashboard";
+import Footer from "./Footer";
 
 //next step add react router
 const App = () => {
   return (
     <div>
-      For the first init
       <div>
-        <Header />
+        <SideBar />
       </div>
       <div>
         <Dashboard />
