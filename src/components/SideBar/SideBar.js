@@ -24,7 +24,7 @@ const SideNav = () => {
     instance.close();
   }, []);
   return (
-    <div>
+    <>
       <ul id="slide-out" className="sidenav">
         <SideBarUserView user={user} />
         {/* Must add url to the outside world link for the react router*/}
@@ -41,7 +41,7 @@ const SideNav = () => {
       <a href="#" data-target="slide-out" className="sidenav-trigger">
         <i className="material-icons">menu</i>
       </a>
-    </div>
+    </>
   );
 };
 
