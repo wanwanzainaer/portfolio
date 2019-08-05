@@ -3,6 +3,7 @@ import M from "materialize-css/dist/js/materialize.min.js";
 
 import SideBarUserView from "./SideBarUserView";
 import SideBarItem from "./SideBarItem";
+import SideBarMenu from "./SideBarMenu";
 
 import userviewUserImage from "../../images/IMG_1006.JPG";
 import userviewBackgroundImage from "../../images/pexels-photo-414612.jpeg";
@@ -27,10 +28,9 @@ const SideNav = () => {
     <>
       <ul id="slide-out" className="sidenav">
         <SideBarUserView user={user} />
-        {/* Must add url to the outside world link for the react router*/}
         <SideBarItem icon="home" text="Home" link="/" />
-        <SideBarItem icon="person" text="About me" link="/" />
-        <SideBarItem icon="folder" text="Project" link="/" />
+        <SideBarItem icon="person" text="About me" link="/about" />
+        <SideBarItem icon="code" text="Project" link="/project" />
         <li>
           <a className="subheader">contact me</a>
         </li>
@@ -38,18 +38,7 @@ const SideNav = () => {
         {/* Must change the icon to the Github icon */}
         <SideBarItem icon="email" text="Github" link="/" />
       </ul>
-      <a href="#" data-target="slide-out" className="sidenav-trigger">
-        <i
-          className="material-icons"
-          style={{
-            color: "white",
-            backgroundColor: "red",
-            fontSize: 40
-          }}
-        >
-          menu
-        </i>
-      </a>
+      <SideBarMenu />
     </>
   );
 };

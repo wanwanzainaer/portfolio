@@ -1,15 +1,15 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const SideBarItem = props => {
   return (
     <>
       <li>
-        <a href="#">
+        <Link to={props.link}>
           {props.icon ? (
             <i className="material-icons">{props.icon}</i>
           ) : null}
           {props.text}
-        </a>
+        </Link>
       </li>
     </>
   );
