@@ -26,13 +26,40 @@ const SideNav = () => {
   }, []);
   return (
     <>
-      <ul id="slide-out" className="sidenav">
+      <ul
+        id="slide-out"
+        className="sidenav"
+        style={{ backgroundColor: "darkslategray" }}
+      >
         <SideBarUserView user={user} />
-        <SideBarItem icon="home" text="Home" link="/" />
-        <SideBarItem icon="person" text="About me" link="/about" />
-        <SideBarItem icon="code" text="Project" link="/project" />
+        <SideBarItem
+          icon="home"
+          text="Home"
+          link="/"
+          iconColor="white"
+          textColor="white"
+        />
+        <SideBarItem
+          icon="person"
+          text="About me"
+          link="/about"
+          iconColor="yellow"
+          textColor="white"
+        />
+        <SideBarItem
+          icon="code"
+          text="Project"
+          link="/project"
+          iconColor="red"
+          textColor="white"
+        />
         <li>
-          <a className="subheader">contact me</a>
+          <a
+            className="subheader"
+            style={{ color: "white", fontSize: 20 }}
+          >
+            contact me
+          </a>
         </li>
         <SideBarItem icon="email" text="Email" link="/" />
         {/* Must change the icon to the Github icon */}
