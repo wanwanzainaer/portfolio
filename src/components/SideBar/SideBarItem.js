@@ -30,6 +30,7 @@ const SideBarItem = props => {
                 {props.icon}
               </i>
             ) : null}
+            {"   "}
             {props.text}
           </LinkCover>
         </Link>

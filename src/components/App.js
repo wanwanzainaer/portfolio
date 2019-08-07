@@ -7,13 +7,10 @@ import "materialize-css/dist/css/materialize.min.css";
 // import Header from "./Header";
 
 import SideBar from "./SideBar/SideBar";
-import Dashboard from "./Dashboard";
+import Dashboard from "./Dashboard/Dashboard";
 import Footer from "./Footer";
 import history from "../history";
 
-const Home = () => {
-  return <h1>Home</h1>;
-};
 const AboutMe = () => {
   return <h1>About me</h1>;
 };
@@ -30,7 +27,7 @@ const App = () => {
           <SideBar />
         </header>
         <main className="container">
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Dashboard} />
           <Route path="/about" component={AboutMe} />
           <Route path="/project" component={Poject} />
           {/* <Route path="/" component={home} /> */}
