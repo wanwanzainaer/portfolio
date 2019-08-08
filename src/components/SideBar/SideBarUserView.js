@@ -7,7 +7,7 @@ const SideBarUserView = ({ user }) => {
       <li>
         <div className="user-view">
           <div className="background">
-            <img src={user.backgroundImage} />
+            <img src={user.backgroundImage} alt="userbackground" />
           </div>
           <a href="#user">
             <img className="circle" src={user.userImage} alt="user" />

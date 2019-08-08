@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Languages from "./LanguagesFrequencyBar";
+// import Languages from "./LanguagesFrequencyBar";
 import RadarChart from "./RadarChart";
 const Skills = () => {
   const [state, setState] = useState({
@@ -20,7 +20,7 @@ const Skills = () => {
 
   return (
     <div>
-      <a
+      <button
         className={state.style}
         onClick={e => changeRadarChart(state.target)}
       >
@@ -28,7 +28,7 @@ const Skills = () => {
         {state.target === "LanguagesLevel"
           ? "Tool Level"
           : "Languages Level"}
-      </a>
+      </button>
       <RadarChart target={state.target} />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 const SideBarMenu = () => {
   return (
-    <a
+    <button
       className="btn-floating btn-large waves-effect waves-light red sidenav-trigger"
       data-target="slide-out"
     >
@@ -15,7 +15,7 @@ const SideBarMenu = () => {
       >
         menu
       </i>
-    </a>
+    </button>
   );
 };
 

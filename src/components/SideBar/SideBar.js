@@ -60,14 +60,7 @@ const SideNav = () => {
           iconColor="red"
           textColor="white"
         />
-        <li>
-          <a
-            className="subheader"
-            style={{ color: "white", fontSize: 20 }}
-          >
-            contact me
-          </a>
-        </li>
+
         <SideBarItem icon="email" text="Email" link="/" />
         {/* Must change the icon to the Github icon */}
         <SideBarItem icon="email" text="Github" link="/" />
