@@ -10,10 +10,8 @@ import SideBar from "./SideBar/SideBar";
 import Dashboard from "./Dashboard/Dashboard";
 import Footer from "./Footer";
 import history from "../history";
+import AboutMe from "./AboutMe/AboutMe";
 
-const AboutMe = () => {
-  return <h1>About me</h1>;
-};
 const Poject = () => {
   return <h1>Project </h1>;
 };
