@@ -8,9 +8,18 @@ export const toolsLevel = {
         top: 1
       }
     },
+    dataLabels: {
+      style: {
+        fontSize: "25px"
+      }
+    },
     labels: ["React", "Node", "iOS", "GCP", "AWS", "Docker", "K8s"],
     title: {
-      text: "Tools level 2019"
+      text: "Tools level 2019",
+      style: {
+        fontSize: "40px",
+        colors: "Black"
+      }
     },
     stroke: {
       width: 0
