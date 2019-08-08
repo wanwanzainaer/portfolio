@@ -1,4 +1,4 @@
-export const frameworkLevel = {
+export const toolsLevel = {
   options: {
     chart: {
       dropShadow: {
