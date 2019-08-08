@@ -16,7 +16,7 @@ export const toolsLevel = {
       width: 0
     },
     fill: {
-      opacity: 0.4
+      opacity: 0.7
     },
     markers: {
       size: 0

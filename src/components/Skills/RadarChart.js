@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
-import { languageLevel, toolsLevel } from "./level/LevelData";
+import { languageLevel, toolsLevel } from "./levelData";
 
 const RadarChart = () => {
   const [state, setState] = useState(toolsLevel);

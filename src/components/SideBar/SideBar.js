@@ -47,6 +47,13 @@ const SideNav = () => {
           textColor="white"
         />
         <SideBarItem
+          icon="build"
+          text="Skills"
+          link="/skills"
+          iconColor="red"
+          textColor="white"
+        />
+        <SideBarItem
           icon="code"
           text="Project"
           link="/project"

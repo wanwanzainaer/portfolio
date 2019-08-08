@@ -11,6 +11,7 @@ import Dashboard from "./Dashboard/Dashboard";
 import Footer from "./Footer";
 import history from "../history";
 import AboutMe from "./AboutMe/AboutMe";
+import Skills from "./Skills/Skills";
 
 const Poject = () => {
   return <h1>Project </h1>;
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/" component={Dashboard} />
           <Route path="/about" component={AboutMe} />
           <Route path="/project" component={Poject} />
+          <Route path="/skills" component={Skills} />
           {/* <Route path="/" component={home} /> */}
         </main>
         <footer

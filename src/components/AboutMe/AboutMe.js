@@ -1,8 +1,7 @@
 import React from "react";
-import Languages from "./LanguagesFrequencyBar";
-import RadarChart from "./RadarChart";
+
 const AboutMe = () => {
-  return <RadarChart />;
+  return <h1>About me</h1>;
 };
 
 export default AboutMe;
