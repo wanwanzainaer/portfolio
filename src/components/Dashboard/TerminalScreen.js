@@ -12,6 +12,7 @@ const TerminalScreen = () => {
         <div className="fakeButtons fakeClose" />
         <div className="fakeButtons fakeMinimize" />
         <div className="fakeButtons fakeZoom" />
+        <span className="terminalTitle">Wan Wan</span>
       </div>
       <div className="fakeScreen">
         <TerminalTyping />
