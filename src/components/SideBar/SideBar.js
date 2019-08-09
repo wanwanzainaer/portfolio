@@ -9,6 +9,8 @@ import LinkCover from "./LinkCover";
 import userviewUserImage from "../../images/Me.jpg";
 import userviewBackgroundImage from "../../images/file017132.jpg";
 
+import githubIcon from "../../images/github_icon.png";
+
 const user = {
   userImage: userviewUserImage,
   backgroundImage: userviewBackgroundImage,
@@ -76,7 +78,25 @@ const SideNav = () => {
         </li>
 
         {/* Must change the icon to the Github icon */}
-        <SideBarItem icon="email" text="Github" link="/" />
+        <li>
+          <a
+            href="https://github.com/wanwanzainaer"
+            style={{
+              color: `white`,
+              fontSize: 25
+            }}
+          >
+            <LinkCover>
+              <i className="material-icons">
+                <img
+                  src={githubIcon}
+                  style={{ width: "30px", height: "30px" }}
+                />
+              </i>{" "}
+              Github
+            </LinkCover>
+          </a>
+        </li>
       </ul>
       <SideBarMenu />
     </>
