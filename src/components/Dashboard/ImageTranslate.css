@@ -15,8 +15,8 @@
 }
 
 .slider_container div {
-  -webkit-animation: round 20s linear infinite;
-  animation: round 20s linear infinite;
+  -webkit-animation: round 25s linear infinite;
+  animation: round 25s linear infinite;
 }
 
 .slider_container div:nth-child(5) {
@@ -39,10 +39,10 @@
   animation-delay: 15s;
 }
 
-/* .slider_container div:nth-child(1) {
+.slider_container div:nth-child(1) {
   -webkit-animation-delay: 20s;
   animation-delay: 20s;
-} */
+}
 
 @-webkit-keyframes round {
   4% {

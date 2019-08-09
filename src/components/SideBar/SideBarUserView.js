@@ -7,7 +7,11 @@ const SideBarUserView = ({ user }) => {
       <li>
         <div className="user-view">
           <div className="background">
-            <img src={user.backgroundImage} alt="userbackground" />
+            <img
+              src={user.backgroundImage}
+              alt="userbackground"
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <a href="#user">
             <img className="circle" src={user.userImage} alt="user" />
