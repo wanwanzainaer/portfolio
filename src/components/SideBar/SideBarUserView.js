@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SideBarUserView = ({ user }) => {
   // Must Add change the Link and a tag
@@ -13,13 +14,13 @@ const SideBarUserView = ({ user }) => {
               style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <a href="#user">
+          <Link to="/about">
             <img className="circle" src={user.userImage} alt="user" />
-          </a>
-          <a href="#name">
+          </Link>
+          <Link to="/about">
             <span className="white-text name">{user.username}</span>
-          </a>
-          <a href="#email">
+          </Link>
+          <a href="mailto:wanwanzainaer@gmail.com">
             <span className="white-text email">
               {user.useremail}{" "}
             </span>

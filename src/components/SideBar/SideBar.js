@@ -4,6 +4,7 @@ import M from "materialize-css/dist/js/materialize.min.js";
 import SideBarUserView from "./SideBarUserView";
 import SideBarItem from "./SideBarItem";
 import SideBarMenu from "./SideBarMenu";
+import LinkCover from "./LinkCover";
 
 import userviewUserImage from "../../images/Me.jpg";
 import userviewBackgroundImage from "../../images/file017132.jpg";
@@ -60,8 +61,20 @@ const SideNav = () => {
           iconColor="red"
           textColor="white"
         />
+        <li>
+          <a
+            href="mailto:wanwanzainaer@gmail.com"
+            style={{
+              color: `white`,
+              fontSize: 25
+            }}
+          >
+            <LinkCover>
+              <i className="material-icons">email</i> Email
+            </LinkCover>
+          </a>
+        </li>
 
-        <SideBarItem icon="email" text="Email" link="/" />
         {/* Must change the icon to the Github icon */}
         <SideBarItem icon="email" text="Github" link="/" />
       </ul>

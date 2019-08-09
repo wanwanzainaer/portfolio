@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import posed from "react-pose";
-
-const LinkCover = posed.div({
-  hoverable: true,
-  init: { scale: 1 },
-  hover: { scale: 1.2 }
-});
+import LinkCover from "./LinkCover";
 
 const SideBarItem = props => {
   const textColor = props.textColor ? props.textColor : "white";
