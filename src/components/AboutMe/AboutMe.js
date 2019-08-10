@@ -19,6 +19,25 @@ const AboutMe = () => {
         </p>
         <h1>Work Experience</h1>
         <div />
+        <ul>
+          <h6>Programming Language</h6>
+          <li>
+            Proficient in Python, JavaScript and Familiar with Java,
+            Swift, Object-C and Ruby
+          </li>
+          <h6>Skill Set</h6>
+          <li>
+            React, NodeJS, iOS, Xcode, AWS, GCP, Git, Django, MongoDB,
+            MS SQL, RESTful API, Scrapy, CocoaPod, Docker, k8s
+          </li>
+          <h6>Knowledge</h6>
+          <li>
+            Web Development, Relational Database Design, NoSQL, mobile
+            Development
+          </li>
+        </ul>
+        <h1>Work Experience</h1>
+        <div />
         <h4>Tap Series</h4>
         <h5>Dec. 2018 - Feb. 2019</h5>
         <h6>Software Engineer Intern</h6>
@@ -68,7 +87,7 @@ const AboutMe = () => {
           </li>
           <li>
             Patient can download medicine information details and make
-            an appointment with Parse(likely firebase) iPad(Obj-C):
+            an appointment with Parse(likely firebase) (Obj-C):
           </li>
           <li>
             Clinic stuff can CRUD medicine information and receive the

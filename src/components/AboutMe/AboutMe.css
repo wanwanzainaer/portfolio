@@ -12,7 +12,9 @@
   color: #16826c;
   border-bottom: #16826c solid 1px;
 }
-
+.resume ul {
+  margin-left: 5%;
+}
 .resume ul li {
   list-style-type: circle;
   font-size: 20px;
