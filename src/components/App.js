@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import "material-icons";
 import "materialize-css/dist/css/materialize.min.css";
@@ -14,23 +14,25 @@ import AboutMe from "./AboutMe/AboutMe";
 import Skills from "./Skills/Skills";
 
 const Poject = () => {
-  return <h1>Project </h1>;
+  return <h1>Project</h1>;
 };
 
 //next step add react router
 const App = () => {
   return (
     <>
-      <Router history={history}>
+      <HashRouter basename="/">
         <header>
           <SideBar />
         </header>
         <main className="container">
-          <Route exact path="/" component={Dashboard} />
-          <Route path="/about" component={AboutMe} />
-          <Route path="/project" component={Poject} />
-          <Route path="/skills" component={Skills} />
-          {/* <Route path="/" component={home} /> */}
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/about" component={AboutMe} />
+            <Route path="/project" component={Poject} />
+            <Route path="/skills" component={Skills} />
+            {/* <Route path="/" component={home} /> */}
+          </Switch>
         </main>
         <footer
           className="page-footer"
@@ -38,7 +40,7 @@ const App = () => {
         >
           <Footer />
         </footer>
-      </Router>
+      </HashRouter>
     </>
   );
 };

@@ -1,0 +1,12 @@
+.resume h1 {
+  color: red;
+  margin-bottom: 10px;
+}
+.resume p {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.resume div {
+  color: #16826c;
+  border-bottom: #16826c solid 1px;
+}
