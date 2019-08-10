@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import { bold } from "ansi-colors";
 const AboutMe = () => {
   return (
     <div className="container">
@@ -17,6 +18,16 @@ const AboutMe = () => {
           developement, I have more than two years industrial
           experiences using Object-C, Swift.
         </p>
+        <h1>Education</h1>
+        <div />
+        <h4>California Lutheran University, Thousand Oaks, CA</h4>
+        <ul style={{}}>
+          <h5>May 2017 - Aug 2019</h5>
+          <li style={{ fontSize: "25px" }}>
+            Master of Science in Information Technology
+          </li>
+        </ul>
+        <br />
         <h1>Work Experience</h1>
         <div />
         <ul>
