@@ -2,11 +2,11 @@ import React from "react";
 
 // Change the Image
 
-import image1 from "../../images/flashimage1.JPG";
-import image2 from "../../images/flashimage2.JPG";
-import image3 from "../../images/flashimage3.JPG";
-import image4 from "../../images/flashimage4.JPG";
-import image5 from "../../images/flashimage5.JPG";
+import image1 from "../../asset/flashimage1.JPG";
+import image2 from "../../asset/flashimage2.JPG";
+import image3 from "../../asset/flashimage3.JPG";
+import image4 from "../../asset/flashimage4.JPG";
+import image5 from "../../asset/flashimage5.JPG";
 
 const ImageSlider = () => {
   return (

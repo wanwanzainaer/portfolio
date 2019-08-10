@@ -6,10 +6,10 @@ import SideBarItem from "./SideBarItem";
 import SideBarMenu from "./SideBarMenu";
 import LinkCover from "./LinkCover";
 
-import userviewUserImage from "../../images/Me.jpg";
-import userviewBackgroundImage from "../../images/file017132.jpg";
+import userviewUserImage from "../../asset/Me.jpg";
+import userviewBackgroundImage from "../../asset/file017132.jpg";
 
-import githubIcon from "../../images/github_icon.png";
+import githubIcon from "../../asset/github_icon.png";
 
 const user = {
   userImage: userviewUserImage,
