@@ -6,7 +6,7 @@ const Footer = () => {
       className="container"
       style={{ color: "black", textAlign: "center" }}
     >
-      © 2019 WanWan Copyright
+      Copyright © WanWan 2019 All Rights Reserved
     </div>
   );
 };

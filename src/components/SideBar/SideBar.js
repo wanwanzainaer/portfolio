@@ -90,7 +90,7 @@ const SideNav = () => {
               <i className="material-icons">
                 <img
                   src={githubIcon}
-                  style={{ width: "30px", height: "30px" }}
+                  style={{ width: "25px", height: "25px" }}
                 />
               </i>{" "}
               Github

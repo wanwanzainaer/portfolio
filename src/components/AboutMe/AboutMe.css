@@ -1,7 +1,9 @@
 .resume h1 {
   color: red;
+  font-size: 40px;
   margin-bottom: 10px;
 }
+
 .resume p {
   margin-top: 10px;
   font-size: 30px;
@@ -9,4 +11,16 @@
 .resume div {
   color: #16826c;
   border-bottom: #16826c solid 1px;
+}
+
+.resume ul li {
+  list-style-type: circle;
+  font-size: 20px;
+}
+
+.resume h5 {
+  color: darkgoldenrod;
+}
+.resume h6 {
+  font-weight: bold;
 }
