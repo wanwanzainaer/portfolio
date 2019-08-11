@@ -6,6 +6,12 @@ export const toolsLevel = {
         blur: 1,
         left: 1,
         top: 1
+      },
+      toolbar: {
+        show: false,
+        tools: {
+          download: false
+        }
       }
     },
     dataLabels: {
@@ -47,8 +53,15 @@ export const languageLevel = {
         blur: 1,
         left: 1,
         top: 1
+      },
+      toolbar: {
+        show: false,
+        tools: {
+          download: false
+        }
       }
     },
+
     labels: [
       "HTML+CSS",
       "Python",
