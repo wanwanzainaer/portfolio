@@ -2,12 +2,17 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div
-      className="container"
-      style={{ color: "black", textAlign: "center" }}
+    <footer
+      className="page-footer"
+      style={{ backgroundColor: "transparent" }}
     >
-      Copyright © WanWan 2019 All Rights Reserved
-    </div>
+      <div
+        className="container"
+        style={{ color: "black", textAlign: "center" }}
+      >
+        Copyright © WanWan 2019 All Rights Reserved
+      </div>
+    </footer>
   );
 };
 

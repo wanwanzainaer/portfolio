@@ -12,10 +12,8 @@ import Footer from "./Footer";
 import history from "../history";
 import AboutMe from "./AboutMe/AboutMe";
 import Skills from "./Skills/Skills";
-
-const Poject = () => {
-  return <h1>Project</h1>;
-};
+import NotFound from "./NotFound";
+import Projects from "./Project/Projects";
 
 //next step add react router
 const App = () => {
@@ -29,17 +27,13 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Dashboard} />
             <Route path="/about" component={AboutMe} />
-            <Route path="/project" component={Poject} />
+            <Route path="/project" component={Projects} />
             <Route path="/skills" component={Skills} />
+            <Route path="/*" component={NotFound} />
             {/* <Route path="/" component={home} /> */}
           </Switch>
         </main>
-        <footer
-          className="page-footer"
-          style={{ backgroundColor: "transparent" }}
-        >
-          <Footer />
-        </footer>
+        <Footer />
       </HashRouter>
     </>
   );
