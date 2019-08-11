@@ -81,6 +81,7 @@ const SideNav = () => {
         <li>
           <a
             href="https://github.com/wanwanzainaer"
+            target="_blank"
             style={{
               color: `white`,
               fontSize: 25
