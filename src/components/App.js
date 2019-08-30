@@ -9,7 +9,6 @@ import "materialize-css/dist/css/materialize.min.css";
 import SideBar from "./SideBar/SideBar";
 import Dashboard from "./Dashboard/Dashboard";
 import Footer from "./Footer";
-import history from "../history";
 import AboutMe from "./AboutMe/AboutMe";
 import Skills from "./Skills/Skills";
 import NotFound from "./NotFound";

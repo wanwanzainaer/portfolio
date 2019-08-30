@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutMe.css";
-import { bold } from "ansi-colors";
 const AboutMe = () => {
   return (
     <div className="container">

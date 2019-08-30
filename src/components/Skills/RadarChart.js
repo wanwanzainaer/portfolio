@@ -1,21 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ReactApexChart from "react-apexcharts";
 
 import { languageLevel, toolsLevel } from "./levelData";
 
 const RadarChart = ({ target }) => {
-  const tamplate =
+  const template =
     target === "ToolsLevel" ? toolsLevel : languageLevel;
-  const [state, setState] = useState(tamplate);
-  useEffect(() => {
-    setState(tamplate);
-  }, [target]);
 
   return (
-    <div style={{}}>
+    <div>
       <ReactApexChart
-        options={state.options}
-        series={state.series}
+        options={template.options}
+        series={template.series}
         type="radar"
         height="700"
       />

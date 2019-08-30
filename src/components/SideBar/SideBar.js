@@ -32,35 +32,38 @@ const SideNav = () => {
       <ul
         id="slide-out"
         className="sidenav"
-        style={{ backgroundColor: "darkslategray" }}
+        style={{
+          background:
+            "linear-gradient(to right bottom,#2998ff, #5643fa)"
+        }}
       >
         <SideBarUserView user={user} />
         <SideBarItem
           icon="home"
           text="Home"
           link="/"
-          iconColor="white"
+          iconColor="#3c3c3c"
           textColor="white"
         />
         <SideBarItem
           icon="person"
           text="About me"
           link="/about"
-          iconColor="yellow"
+          iconColor="#3c3c3c"
           textColor="white"
         />
         <SideBarItem
           icon="build"
           text="Skills"
           link="/skills"
-          iconColor="red"
+          iconColor="#3c3c3c"
           textColor="white"
         />
         <SideBarItem
           icon="code"
           text="Project"
           link="/project"
-          iconColor="red"
+          iconColor="#3c3c3c"
           textColor="white"
         />
         <li>
@@ -72,7 +75,13 @@ const SideNav = () => {
             }}
           >
             <LinkCover>
-              <i className="material-icons">email</i> Email
+              <i
+                className="material-icons"
+                style={{ color: "#3c3c3c" }}
+              >
+                email
+              </i>{" "}
+              Email
             </LinkCover>
           </a>
         </li>
@@ -82,6 +91,7 @@ const SideNav = () => {
           <a
             href="https://github.com/wanwanzainaer"
             target="_blank"
+            rel="noopener noreferrer"
             style={{
               color: `white`,
               fontSize: 25
@@ -92,6 +102,7 @@ const SideNav = () => {
                 <img
                   src={githubIcon}
                   style={{ width: "25px", height: "25px" }}
+                  alt="Github icon"
                 />
               </i>{" "}
               Github

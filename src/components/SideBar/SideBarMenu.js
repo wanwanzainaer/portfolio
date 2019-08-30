@@ -9,7 +9,7 @@ const SideBarMenu = () => {
         className="material-icons"
         style={{
           color: "white",
-          backgroundColor: "red",
+          backgroundColor: "#ff00ff",
           fontSize: 40
         }}
       >
