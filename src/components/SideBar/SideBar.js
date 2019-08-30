@@ -34,7 +34,7 @@ const SideNav = () => {
         className="sidenav"
         style={{
           background:
-            "linear-gradient(to right bottom,#2998ff, #5643fa)"
+            "linear-gradient(to right bottom,#d2e9ff, #2894ff)"
         }}
       >
         <SideBarUserView user={user} />
